@@ -1,0 +1,72 @@
+--> Git is distributed version control system.
+
+--> Two type of version control system 
+	->central version control system
+		->Everything will be remain on centeral server
+	->Distributed version control system
+		->Each editor has his own copy and at remote system there is whole collection
+
+-->To use help in git bash
+	->git COMMAND --help	
+	->git --help COMMAND
+
+-->Three types of stages in git
+	->working directory
+		->untrack file
+		->modified file
+	->staging area
+	->respository
+
+--> before doing push perform pull 
+
+-->git push -u
+	->For every branch that is up to date or successfully pushed, add upstream (tracking) reference, 
+	  used by argument-less git-pull(1) and other commands.
+
+-->before merging i.e. in master first perform pull in master 
+
+-->To merge to master 
+	->git checkout master	
+	->git branch -a
+	->git branch --merged
+	->git marge BRANCH_NAME
+	->git push origin master
+
+-->To delete branch	
+	->git checkout master
+	->git branch --merged
+	->git branch -d BRANCH_NAME
+
+-->To delete brach from remote	
+	->git push origin --delete BRANCH_NAME
+	
+-->To reverse the change made in perticular file
+	->git checkout FILE_NAME
+	
+-->Git Command :-
+	->git version
+	->git config --list
+	->git config --global user.name "USERNAME"
+	->git config --global user.email "EMAIL"
+	->git init
+	->git status
+	->git add -A
+	->git add FILENAME
+	->git reset
+	->git reset FILENAME
+	->git log
+	->git log --stat
+	->git clone URL|SORCE .|DESTINATION
+	->git branch -a
+	->git remote -v
+	->git remote
+	->git remore add origin REPO_PATH
+	->git remote remove origin
+	->git diff
+	->git pull origin master
+	->git push origin master
+	->git branch BRANCH_NAME
+	->git checkout BRANCH_NAME
+	->git branch
+	->git checkout -b BRANCH_NAME
+	->git branch --delete BRANCH_NAME
