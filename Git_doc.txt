@@ -43,7 +43,16 @@
 -->To reverse the change made in perticular file
 	->git checkout FILE_NAME
 	
+-->To change commmit massage
+	->git commit --amend -m "NEW_MASSAGE"
+	->This command also changes git history.
+
+-->To add file prevoius commit 
+	->git commit --amend
+	->This command changes git history.
+
 -->Git Command :-
+
 	->git version
 	->git config --list
 	->git config --global user.name "USERNAME"
@@ -70,3 +79,4 @@
 	->git branch
 	->git checkout -b BRANCH_NAME
 	->git branch --delete BRANCH_NAME
+	->git config --global --unset ATTRIBUTE_NAME
